@@ -1,0 +1,226 @@
+{
+    "count": 20,
+    "slimes": [
+      {
+        "id": 1,
+        "name": "Pink Slime",
+        "diet": ["Fruits", "Vegetables", "Meat"],
+        "favoriteFood": "None",
+        "habitat": "Everywhere",
+        "features": [
+          "Very common and friendly",
+          "Can eat anything"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tabby Slime",
+        "diet": ["Meat"],
+        "favoriteFood": "Stony Hen",
+        "habitat": "Dry Reef",
+        "features": [
+          "Adorable cat-like appearance",
+          "Loves to play"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Rock Slime",
+        "diet": ["Vegetables"],
+        "favoriteFood": "Heart Beet",
+        "habitat": "Dry Reef, Indigo Quarry",
+        "features": [
+          "Hard, rocky exterior",
+          "Rolls into a ball as a defense mechanism"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Phosphor Slime",
+        "diet": ["Fruits"],
+        "favoriteFood": "Cuberry",
+        "habitat": "Dry Reef (Night)",
+        "features": [
+          "Glows in the dark",
+          "Disappears in sunlight without a solar shield"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Boom Slime",
+        "diet": ["Meat"],
+        "favoriteFood": "Briar Hen",
+        "habitat": "Moss Blanket, Indigo Quarry",
+        "features": [
+          "Explodes when agitated",
+          "Highly volatile"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Rad Slime",
+        "diet": ["Vegetables"],
+        "favoriteFood": "Oca Oca",
+        "habitat": "Indigo Quarry",
+        "features": [
+          "Emits a harmful radiation aura",
+          "Unique green glow"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Crystal Slime",
+        "diet": ["Vegetables"],
+        "favoriteFood": "Odd Onion",
+        "habitat": "Indigo Quarry",
+        "features": [
+          "Produces sharp crystal spikes",
+          "Beautiful and dangerous"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Honey Slime",
+        "diet": ["Fruits"],
+        "favoriteFood": "Mint Mango",
+        "habitat": "Moss Blanket",
+        "features": [
+          "Produces honey-like plorts",
+          "Attracts other slimes with its sweet scent"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Puddle Slime",
+        "diet": ["Water"],
+        "favoriteFood": "None",
+        "habitat": "Ponds",
+        "features": [
+          "Lives in water",
+          "Doesn't produce plorts if overcrowded"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Hunter Slime",
+        "diet": ["Meat"],
+        "favoriteFood": "Roostro",
+        "habitat": "Moss Blanket",
+        "features": [
+          "Stealthy and predatory",
+          "Can turn invisible"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Quantum Slime",
+        "diet": ["Fruits"],
+        "favoriteFood": "Phase Lemon",
+        "habitat": "Ancient Ruins",
+        "features": [
+          "Can create quantum echoes",
+          "Unpredictable movements"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Dervish Slime",
+        "diet": ["Fruits"],
+        "favoriteFood": "Prickle Pear",
+        "habitat": "Glass Desert",
+        "features": [
+          "Creates whirlwinds",
+          "Active and energetic"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Mosaic Slime",
+        "diet": ["Vegetables"],
+        "favoriteFood": "Silver Parsnip",
+        "habitat": "Glass Desert",
+        "features": [
+          "Beautiful reflective patterns",
+          "Can scatter light into dangerous bursts"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Tangle Slime",
+        "diet": ["Meat"],
+        "favoriteFood": "Painted Hen",
+        "habitat": "Glass Desert",
+        "features": [
+          "Can extend vine-like tendrils",
+          "Dangerous if agitated"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Saber Slime",
+        "diet": ["Meat"],
+        "favoriteFood": "None (via Largo Hybrids)",
+        "habitat": "Wilds",
+        "features": [
+          "Prehistoric appearance",
+          "Aggressive and wild"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Fire Slime",
+        "diet": ["Ash"],
+        "favoriteFood": "None",
+        "habitat": "Incinerators",
+        "features": [
+          "Burns with a constant flame",
+          "Needs an ash trough"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Gold Slime",
+        "diet": ["None"],
+        "favoriteFood": "None",
+        "habitat": "Rare (Everywhere)",
+        "features": [
+          "Extremely rare",
+          "Drops valuable gold plorts when hit with resources"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Lucky Slime",
+        "diet": ["Meat"],
+        "favoriteFood": "None",
+        "habitat": "Rare (Everywhere)",
+        "features": [
+          "Cat-like appearance with a coin symbol",
+          "Drops Newbucks when fed"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Glitch Slime",
+        "diet": ["None"],
+        "favoriteFood": "None",
+        "habitat": "Slimeulation",
+        "features": [
+          "Digital and illusory",
+          "Exists only in Slimeulation"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Quicksilver Slime",
+        "diet": ["Electricity"],
+        "favoriteFood": "None",
+        "habitat": "Nimble Valley",
+        "features": [
+          "Extremely fast",
+          "Produces plorts when hit with electricity"
+        ]
+      }
+    ]
+  }
+  
