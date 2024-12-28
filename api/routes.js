@@ -2,8 +2,6 @@ const express = require('express');
 const router = express.Router();
 const slimes = require('../data/slimes.json');
 
-
-
 // Slime routes
 router.get('/slimes/count', (req, res) => {
   res.json({ count: slimes.count });
