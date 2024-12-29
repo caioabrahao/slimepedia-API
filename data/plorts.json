@@ -1,0 +1,112 @@
+{
+    "plorts": [
+        {
+            "id": 1,
+            "name": "Pink Plort",
+            "value": 5,
+            "description": "The most common plort, produced by pink slimes."
+        },
+        {
+            "id": 2,
+            "name": "Rock Plort",
+            "value": 20,
+            "description": "A hard plort produced by rock slimes."
+        },
+        {
+            "id": 3,
+            "name": "Tabby Plort",
+            "value": 15,
+            "description": "A plort produced by tabby slimes, resembling a cat."
+        },
+        {
+            "id": 4,
+            "name": "Phosphor Plort",
+            "value": 25,
+            "description": "A glowing plort produced by phosphor slimes."
+        },
+        {
+            "id": 5,
+            "name": "Rad Plort",
+            "value": 30,
+            "description": "A radioactive plort produced by rad slimes."
+        },
+        {
+            "id": 6,
+            "name": "Boom Plort",
+            "value": 40,
+            "description": "An explosive plort produced by boom slimes."
+        },
+        {
+            "id": 7,
+            "name": "Honey Plort",
+            "value": 45,
+            "description": "A sweet plort produced by honey slimes."
+        },
+        {
+            "id": 8,
+            "name": "Puddle Plort",
+            "value": 50,
+            "description": "A watery plort produced by puddle slimes."
+        },
+        {
+            "id": 9,
+            "name": "Crystal Plort",
+            "value": 60,
+            "description": "A sharp plort produced by crystal slimes."
+        },
+        {
+            "id": 10,
+            "name": "Quantum Plort",
+            "value": 65,
+            "description": "A mysterious plort produced by quantum slimes."
+        },
+        {
+            "id": 11,
+            "name": "Dervish Plort",
+            "value": 70,
+            "description": "A swirling plort produced by dervish slimes."
+        },
+        {
+            "id": 12,
+            "name": "Tangle Plort",
+            "value": 75,
+            "description": "A thorny plort produced by tangle slimes."
+        },
+        {
+            "id": 13,
+            "name": "Mosaic Plort",
+            "value": 80,
+            "description": "A beautiful plort produced by mosaic slimes."
+        },
+        {
+            "id": 14,
+            "name": "Hunter Plort",
+            "value": 85,
+            "description": "A stealthy plort produced by hunter slimes."
+        },
+        {
+            "id": 15,
+            "name": "Saber Plort",
+            "value": 90,
+            "description": "A prehistoric plort produced by saber slimes."
+        },
+        {
+            "id": 16,
+            "name": "Fire Plort",
+            "value": 95,
+            "description": "A hot plort produced by fire slimes."
+        },
+        {
+            "id": 17,
+            "name": "Gold Plort",
+            "value": 200,
+            "description": "A rare and valuable plort produced by gold slimes."
+        },
+        {
+            "id": 18,
+            "name": "Lucky Plort",
+            "value": 100,
+            "description": "A lucky plort produced by lucky slimes."
+        }
+    ]
+}

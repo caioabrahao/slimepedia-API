@@ -1,0 +1,21 @@
+:root{
+    --lightBackgroundColor: #F1E1C8;
+    --lightBackgroundTextColor: #47547B;
+    --lightBackgroundSecondaryTextColor: #726A5C;
+
+    --accentPink: #DF4E85;
+    --accentBlue: #22BACF;
+    --accentBackgroundTextColor: #FFFFFF;
+
+    --purpleNavy: #47547B;
+    --lightPurpleNavy: #8B9AAF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
