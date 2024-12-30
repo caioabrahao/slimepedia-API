@@ -30,6 +30,14 @@ Here is a full list of the data you can access with the API:
 - Buildings
 
 ## For who is it made for?
-This API is made for devs and Slime Rancher fans alike! It is made as a passion project of mine for every programming loving and
+This API is made for devs and Slime Rancher fans alike! It is made as a passion project of mine for every programming loving Rancher just like myself!
 
 ## Versioning Information
+This API is still under development (as of 30 of december, 2024)
+
+Currently Implemented Features / Data:
+- Basic Slime Information
+- Basic Plort Information
+- Work in progress Documentation
+
+Please report any issues to the Github repository [here](https://github.com/caioabrahao/slimepedia-API).
