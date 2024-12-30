@@ -30,5 +30,6 @@ Here is a full list of the data you can access with the API:
 - Buildings
 
 ## For who is it made for?
+This API is made for devs and Slime Rancher fans alike! It is made as a passion project of mine for every programming loving and
 
 ## Versioning Information
