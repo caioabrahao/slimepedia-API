@@ -6,13 +6,14 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Slimepedia API',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/caioabrahao/slimepedia-API',
 			},
 			sidebar: [
 				{
 					label: 'Guides',
+					
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', slug: 'guides/example' },
