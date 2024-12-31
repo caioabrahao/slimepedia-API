@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-const routes = require('../api/routes.js'); // Correctly require the routes module
+const routes = require('./routes.js'); // Correctly require the routes module
 
 
 // Middleware to parse JSON (if needed in future)
@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 });
 
 // Use the routes from routes.js
-app.use('/api', routes);
+app.use('/', routes);
 
 // Start the server
 app.listen(PORT, () => {

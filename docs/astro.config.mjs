@@ -12,11 +12,17 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
+					label: 'Introduction',
+					items: [
+						{ label: 'Overview', slug: 'introduction/overview' },
+					],
+				},
+				{
 					label: 'Guides',
 					
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Getting Started', slug: 'guides/example' },
+						{ label: 'Getting Started', slug: 'guides/getting-started' },
 					],
 				},
 				{
