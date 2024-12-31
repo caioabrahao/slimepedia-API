@@ -1,15 +1,16 @@
 {
     "version": 2,
-    "builds": [
+    "redirects": [
       {
-        "src": "src/app.js",
-        "use": "@vercel/node"
+        "source": "/",
+        "destination": "/docs",
+        "permanent": true
       }
     ],
-    "routes": [
-      {
-        "src": "/api/(.*)",
-        "dest": "/src/app.js"
-      }
-    ]
+    "projects": {
+      "api": "./api",
+      "docs": "./docs",
+      "landing": "./landing"
+    }
   }
+  
