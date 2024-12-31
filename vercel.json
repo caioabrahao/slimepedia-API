@@ -1,11 +1,7 @@
 {
-    "version": 2,
-    "redirects": [
-      {
-        "source": "/",
-        "destination": "/docs",
-        "permanent": true
-      }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/dist/api/$1" },
+    { "source": "/", "destination": "/dist/docs" },
+    { "source": "/(.*)", "destination": "/dist/docs/$1" }
+  ]
+}
