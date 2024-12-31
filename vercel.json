@@ -6,11 +6,6 @@
         "destination": "/docs",
         "permanent": true
       }
-    ],
-    "projects": {
-      "api": "./api",
-      "docs": "./docs",
-      "landing": "./landing"
-    }
+    ]
   }
   
