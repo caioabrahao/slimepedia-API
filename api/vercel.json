@@ -1,0 +1,8 @@
+{
+    "functions": {
+      "src/app.js": {
+        "runtime": "nodejs16.x"
+      }
+    }
+  }
+  
