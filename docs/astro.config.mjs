@@ -7,22 +7,23 @@ export default defineConfig({
   output: 'static',
   integrations: [
     starlight({
+      favicon: '/favicon.png',
       title: 'Slimepedia API',
       social: {
         github: 'https://github.com/caioabrahao/slimepedia-API',
       },
       sidebar: [
         {
-          label: 'Introduction',
+          label: 'Information',
           items: [
-            { label: 'Overview', slug: 'introduction/overview' },
+            { label: 'Overview', slug: 'information/overview' },
+            { label: 'Introduction', slug: 'information/introduction' },
+            { label: 'Contributing', slug: 'information/contributing' },
           ],
         },
         {
           label: 'Guides',
-          items: [
-            { label: 'Getting Started', slug: 'guides/getting-started' },
-          ],
+          autogenerate: { directory: 'guides' },
         },
         {
           label: 'Reference',

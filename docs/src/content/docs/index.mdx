@@ -7,10 +7,10 @@ hero:
   image:
     file: ../../assets/Glitch_Slime.webp
   actions:
-    - text: Documentation
+    - text: Docs
       link: /guides/getting-started/
       icon: right-arrow
-    - text: Check Github Repo
+    - text: API Repository
       link: https://github.com/caioabrahao/slimepedia-API
       icon: github
       variant: minimal
@@ -18,7 +18,11 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## TRY IT RIGHT NOW
+
+```bash
+curl https://slimepedia-api.herokuapp.com/api/v1/slimes
+```
 
 <CardGrid stagger>
 	<Card title="Update content" icon="pencil">

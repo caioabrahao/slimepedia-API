@@ -1,0 +1,50 @@
+---
+title: Data Models
+description: How the data is structured
+---
+import { Aside } from '@astrojs/starlight/components';
+import { FileTree } from '@astrojs/starlight/components';
+
+<Aside type='caution' title='Work in progress'>
+    The data models reference is still a work in progress. We are working hard to provide you with the most accurate and up-to-date information.
+</Aside>
+
+## Introduction
+All the data is structured in a way that is easy to understand and work with. Below you can find all the data models that are used in the API.
+
+## Slimes
+The Slimepedia API is all about slimes, so it makes sense to start with the Slime data model. Here is how the Slime data model is structured:
+
+``` json
+"slimes": [
+      {
+        "id": 1,
+        "name": "Pink Slime",
+        "diet": ["Fruits", "Vegetables", "Meat"],
+        "favoriteFood": "None",
+        "habitat": "Everywhere",
+        "features": [
+          "Very common and friendly",
+          "Can eat anything"
+        ]
+      },
+```
+
+### Data Types
+| Value | Type | Description | Example Value
+|-----------|---|-------------|---------------|
+| `id`  | number | Unique identifier for the slime   | `1` |
+| `name`  | string | The slime's name            | `Pink Slime` |
+| `diet`   | array | The slime's dietary preferences          | `["Fruits", "Vegetables"]` |
+| `favoriteFood`  | string | The slime's favorite food | `none` |
+| `habitat`   | string | Where the slime is commonly found        | `Everywhere` |
+| `features`   | array | Additional details about the slime | `["Very common and friendly"]` |
+
+## Plorts
+
+## Locations
+
+## Ranchers / NPCs
+
+## Chickens
+
