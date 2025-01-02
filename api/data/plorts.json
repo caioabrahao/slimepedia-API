@@ -1,112 +1,305 @@
 {
-    "plorts": [
+    "plorts":[
         {
             "id": 1,
             "name": "Pink Plort",
-            "value": 5,
-            "description": "The most common plort, produced by pink slimes."
+            "value": 10,
+            "description": "A multipurpose, common plort used for various everyday products.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/pink.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/pink.webp"
+            }
         },
         {
             "id": 2,
             "name": "Rock Plort",
-            "value": 20,
-            "description": "A hard plort produced by rock slimes."
+            "value": 25,
+            "description": "A solid, durable plort from Rock Slimes, often used in crafting durable items.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/rock.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/rock.webp"
+            }
         },
         {
             "id": 3,
             "name": "Tabby Plort",
-            "value": 15,
-            "description": "A plort produced by tabby slimes, resembling a cat."
+            "value": 40,
+            "description": "A cute plort from Tabby Slimes, used mainly in producing food and toys.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/tabby.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/tabby.webp"
+            }
         },
         {
             "id": 4,
             "name": "Phosphor Plort",
-            "value": 25,
-            "description": "A glowing plort produced by phosphor slimes."
+            "value": 60,
+            "description": "A glowing plort produced by Phosphor Slimes, highly valuable in high-tech applications.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/phosphor.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/phosphor.webp"
+            }
         },
         {
             "id": 5,
-            "name": "Rad Plort",
-            "value": 30,
-            "description": "A radioactive plort produced by rad slimes."
+            "name": "Honey Plort",
+            "value": 80,
+            "description": "A sweet plort from Honey Slimes, used in many food-based recipes.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/honey.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/honey.webp"
+            }
         },
         {
             "id": 6,
-            "name": "Boom Plort",
-            "value": 40,
-            "description": "An explosive plort produced by boom slimes."
+            "name": "Hunter Plort",
+            "value": 120,
+            "description": "A rare and valuable plort dropped by the elusive Hunter Slime.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/hunter.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/hunter.webp"
+            }
         },
         {
             "id": 7,
-            "name": "Honey Plort",
-            "value": 45,
-            "description": "A sweet plort produced by honey slimes."
+            "name": "Boom Plort",
+            "value": 50,
+            "description": "An unstable plort that detonates when disturbed, dangerous but useful in certain crafting recipes.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/boom.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/boom.webp"
+            }
         },
         {
             "id": 8,
-            "name": "Puddle Plort",
-            "value": 50,
-            "description": "A watery plort produced by puddle slimes."
+            "name": "Rad Plort",
+            "value": 90,
+            "description": "A radioactive plort from Rad Slimes, useful in powering certain machines.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/rad.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/rad.webp"
+            }
         },
         {
             "id": 9,
             "name": "Crystal Plort",
-            "value": 60,
-            "description": "A sharp plort produced by crystal slimes."
+            "value": 150,
+            "description": "A beautiful but fragile plort created by Crystal Slimes, often used in high-end tech and decorations.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/crystal.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/crystal.webp"
+            }
         },
         {
             "id": 10,
-            "name": "Quantum Plort",
-            "value": 65,
-            "description": "A mysterious plort produced by quantum slimes."
+            "name": "Tangle Plort",
+            "value": 70,
+            "description": "A twisted, vine-like plort dropped by Tangle Slimes, useful in creating plant-based materials.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/tangle.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/tangle.webp"
+            }
         },
         {
             "id": 11,
             "name": "Dervish Plort",
-            "value": 70,
-            "description": "A swirling plort produced by dervish slimes."
+            "value": 110,
+            "description": "A spinning plort from Dervish Slimes, known for its unpredictability and use in energy storage.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/dervish.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/dervish.webp"
+            }
         },
         {
             "id": 12,
-            "name": "Tangle Plort",
-            "value": 75,
-            "description": "A thorny plort produced by tangle slimes."
+            "name": "Quantum Plort",
+            "value": 200,
+            "description": "A rare, quantum-based plort from Quantum Slimes, used in advanced science and technology.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/quantum.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/quantum.webp"
+            }
         },
         {
             "id": 13,
             "name": "Mosaic Plort",
-            "value": 80,
-            "description": "A beautiful plort produced by mosaic slimes."
+            "value": 250,
+            "description": "A colorful and valuable plort from Mosaic Slimes, known for its aesthetic beauty.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/mosaic.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/mosaic.webp"
+            }
         },
         {
             "id": 14,
-            "name": "Hunter Plort",
-            "value": 85,
-            "description": "A stealthy plort produced by hunter slimes."
+            "name": "Gold Plort",
+            "value": 500,
+            "description": "The rarest plort in the Far, Far Range, incredibly valuable and difficult to obtain.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/gold.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/gold.webp"
+            }
         },
         {
             "id": 15,
             "name": "Saber Plort",
-            "value": 90,
-            "description": "A prehistoric plort produced by saber slimes."
+            "value": 350,
+            "description": "A prehistoric plort from the ancient Saber Slime, valuable for certain crafting recipes.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/saber.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/saber.webp"
+            }
         },
         {
             "id": 16,
-            "name": "Fire Plort",
-            "value": 95,
-            "description": "A hot plort produced by fire slimes."
+            "name": "Puddle Plort",
+            "value": 35,
+            "description": "A cool, tranquil plort from Puddle Slimes, often used in water-based decoration and fountains.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/puddle.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/puddle.webp"
+            }
         },
         {
             "id": 17,
-            "name": "Gold Plort",
-            "value": 200,
-            "description": "A rare and valuable plort produced by gold slimes."
+            "name": "Fire Plort",
+            "value": 150,
+            "description": "A fiery plort from the Fire Slime, used in creating heat-based crafting materials.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/fire.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/fire.webp"
+            }
         },
         {
             "id": 18,
             "name": "Lucky Plort",
             "value": 100,
-            "description": "A lucky plort produced by lucky slimes."
+            "description": "A rare plort dropped by Lucky Slimes, can be exchanged for valuable items in Lucky Slime events.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/lucky.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/lucky.webp"
+            }
+        },
+        {
+            "id": 19,
+            "name": "Glitch Plort",
+            "value": 0,
+            "description": "A mysterious plort that appears during Glitch events, currently of unknown value.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/glitch.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/glitch.webp"
+            }
+        },
+        {
+            "id": 20,
+            "name": "Quicksilver Plort",
+            "value": 200,
+            "description": "A high-speed plort, useful in creating advanced energy and machinery.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/quicksilver.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/quicksilver.webp"
+            }
+        },
+        {
+            "id": 21,
+            "name": "Cotton Plort",
+            "value": 20,
+            "description": "A soft and fluffy plort from Cotton Slimes, often used in plushie crafting.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/cotton.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/cotton.webp"
+            }
+        },
+        {
+            "id": 22,
+            "name": "Ringtail Plort",
+            "value": 45,
+            "description": "A sneaky, elusive plort from Ringtail Slimes, often found in hidden spots.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/ringtail.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/ringtail.webp"
+            }
+        },
+        {
+            "id": 23,
+            "name": "Sloomber Plort",
+            "value": 30,
+            "description": "A mysterious plort with unknown applications, believed to be connected to an unknown slime.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/sloomber.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/sloomber.webp"
+            }
+        },
+        {
+            "id": 24,
+            "name": "Twin Plort",
+            "value": 60,
+            "description": "A unique plort that seems to possess two distinct energies, possibly from Twin Slimes.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/twin.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/twin.webp"
+            }
+        },
+        {
+            "id": 25,
+            "name": "Batty Plort",
+            "value": 30,
+            "description": "A plort from the Batty Slime, known for its unique, winged appearance. It glows in the dark and is prized by collectors.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/batty.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/batty.webp"
+            }
+        },
+        {
+            "id": 26,
+            "name": "Yolky Plort",
+            "value": 22,
+            "description": "A plort produced by Yolky Slimes, which are known for their egg-like appearance and the yolk-filled core they produce.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/yolky.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/yolky.webp"
+            }
+        },
+        {
+            "id": 27,
+            "name": "Flutter Plort",
+            "value": 40,
+            "description": "A plort from the Flutter Slime, known for their vibrant colors and their butterfly-like wings. This plort is highly valued.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/flutter.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/flutter.webp"
+            }
+        },
+        {
+            "id": 28,
+            "name": "Angler Plort",
+            "value": 35,
+            "description": "A plort from the Angler Slime, resembling an anglerfish with its bioluminescent lure. This plort is sought after for its usefulness in crafting.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/angler.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/angler.webp"
+            }
+        },
+        {
+            "id": 29,
+            "name": "Shadow Plort",
+            "value": 50,
+            "description": "A rare and dark plort produced by the elusive Shadow Slime. It is used in powerful crafting recipes and is highly coveted.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/shadow.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/shadow.webp"
+            }
+        },
+        {
+            "id": 30,
+            "name": "Tarr Plort",
+            "value": 0,
+            "description": "A plort that only appears when a Tarr Slime is present, resulting from the consumption of slimes and plorts. Dangerous and toxic.",
+            "image": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/tarr.webp",
+                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/tarr.webp"
+            }
         }
+        
     ]
 }
