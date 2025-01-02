@@ -1,12 +1,12 @@
 {
-  "count": 20,
+  "count": 30,
   "next": null,
   "previous": null,
   "results": [
     {
       "id": 1,
       "name": "Pink Slime",
-      "diet": ["Fruits", "Vegetables", "Meat"],
+      "diet": "Everything",
       "favorite_food": "None",
       "favorite_toy": "Beach Ball",
       "slime_type": "Docile",
@@ -18,16 +18,799 @@
       },
       "plort": {
         "name": "Pink Plort",
-        "url": ""
+        "url": "https://slimepedia-api.vercel.app/api/plorts/1"
       },
       "images":{
-        "default": "",
-        "sr1": "",
-        "secret_style": ""
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/pink.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/pink.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/pink.webp"
       },
       "features": [
         "Very common and friendly",
         "Can eat anything"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tabby Slime",
+      "diet": "Meat",
+      "favorite_food": "Hen Hen",
+      "favorite_toy": "Ball of Yarn",
+      "slime_type": "Docile",
+      "slimepedia": {
+        "snippet": "The Tabby Slime is known for its playful and curious nature.",
+        "slimeology": "Tabby Slimes are feisty, curious, and absolutely love to play! They are always bouncing around, eager to chase after the nearest moving target. Tabby slimes eat meat, with their favorite being Hen Hen, and their plorts are a common resource on the ranch.",
+        "rancher_risks": "Be cautious when ranching these slimes—Tabby Slimes can be unpredictable when hungry, and they may attack ranchers if they haven't been fed. They're best kept in a secured pen.",
+        "plortonomics": "Tabby Plorts are often used in the food and entertainment industries, especially in making treats for pets or to be used as a base ingredient in various concoctions."
+      },
+      "plort": {
+        "name": "Tabby Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/2"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/tabby.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/tabby.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/tabby.webp"
+      },
+      "features": [
+        "Loves to chase moving objects",
+        "Prefers eating meat"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rock Slime",
+      "diet": "Vegetable",
+      "favorite_food": "Oca Oca",
+      "favorite_toy": "Rock Ball",
+      "slime_type": "Aggressive",
+      "slimepedia": {
+        "snippet": "With a spiky, rocky appearance, Rock Slimes can be a bit dangerous if not handled properly.",
+        "slimeology": "Rock Slimes are known for their tough exterior and prickly personality. While they are generally docile, they will become defensive when hungry and are quick to attack if provoked. They feed on vegetables, with Oca Oca being their favorite.",
+        "rancher_risks": "Due to their sharp spines, Rock Slimes can be dangerous to a rancher, especially if they're not properly fed. Be mindful of their aggression when they feel hungry or threatened.",
+        "plortonomics": "Rock Plorts are highly sought after for their use in various industrial applications, particularly in materials science and construction."
+      },
+      "plort": {
+        "name": "Rock Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/3"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/rock.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/rock.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/rock.webp"
+      },
+      "features": [
+        "Spiky and aggressive when hungry",
+        "Prefers eating vegetables"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Phosphor Slime",
+      "diet": "Fruit",
+      "favorite_food": "Pomegranate",
+      "favorite_toy": "Lantern",
+      "slime_type": "Docile",
+      "slimepedia": {
+        "snippet": "Glowing in the dark, Phosphor Slimes light up the night.",
+        "slimeology": "Phosphor Slimes are luminescent creatures that glow in the dark. They eat fruit, with Pomegranate being their favorite. While docile and friendly, they require a bit more care to keep in a well-lit area as they become hostile in daylight.",
+        "rancher_risks": "Phosphor Slimes are highly sensitive to sunlight, which can cause them to quickly become distressed and vanish into the air. They need to be kept in dark areas or with proper shade to thrive.",
+        "plortonomics": "Phosphor Plorts are valuable in the creation of glowing products, from decorative lighting to energy-efficient systems used in remote areas."
+      },
+      "plort": {
+        "name": "Phosphor Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/4"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/phosphor.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/phosphor.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/phosphor.webp"
+      },
+      "features": [
+        "Glows in the dark",
+        "Prefers eating fruit"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Honey Slime",
+      "diet": "Fruit",
+      "favorite_food": "Mint Mango",
+      "favorite_toy": "Flutter Bud",
+      "slime_type": "Docile",
+      "slimepedia": {
+        "snippet": "Sweet as honey, this slime loves fruit and has a golden hue.",
+        "slimeology": "Honey Slimes are known for their golden appearance and sweet nature. They love fruit, with Mint Mango being their favorite. Their plorts are highly sought after for their use in food and candy-making industries.",
+        "rancher_risks": "Honey Slimes are generally friendly but can attract unwanted attention from other slimes when not properly managed. Keep them fed with fruit to avoid any trouble.",
+        "plortonomics": "Honey Plorts are prized in the culinary world, particularly for the creation of candies, syrups, and other sweet products."
+      },
+      "plort": {
+        "name": "Honey Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/5"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/honey.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/honey.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/honey.webp"
+      },
+      "features": [
+        "Has a golden appearance",
+        "Prefers eating fruit"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Hunter Slime",
+      "diet": "Meat",
+      "favorite_food": "Stony Hen",
+      "favorite_toy": "Hopper Toy",
+      "slime_type": "Aggressive",
+      "slimepedia": {
+        "snippet": "Shrouded in mystery, Hunter Slimes are elusive and aggressive.",
+        "slimeology": "Hunter Slimes are elusive creatures that can blend into their surroundings. They are aggressive when hungry and require a diet of meat, with Stony Hen being their favorite. Due to their aggressive nature, they must be handled carefully.",
+        "rancher_risks": "Hunter Slimes are dangerous when hungry. They will quickly turn aggressive and chase down any rancher that gets too close to their food. They are best kept behind secure barriers.",
+        "plortonomics": "Hunter Plorts are valuable for their unique properties, often used in crafting high-end weapons and equipment for explorers in harsh environments."
+      },
+      "plort": {
+        "name": "Hunter Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/6"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/hunter.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/hunter.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/hunter.webp"
+      },
+      "features": [
+        "Elusive and aggressive",
+        "Prefers eating meat"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Boom Slime",
+      "diet": "Meat",
+      "favorite_food": "Puddle Plorts",
+      "favorite_toy": "Boomerang",
+      "slime_type": "Aggressive",
+      "slimepedia": {
+        "snippet": "Explosive by nature, they make sure their presence is known.",
+        "slimeology": "Boom Slimes are highly volatile slimes that explode when they feel threatened or angry. They enjoy meat and particularly like to eat Puddle Plorts. Keep your distance from them unless you're properly prepared.",
+        "rancher_risks": "Boom Slimes are extremely dangerous. They explode when threatened or overstimulated, causing damage to anything in their vicinity, including ranchers.",
+        "plortonomics": "Boom Plorts are highly sought after in the field of demolitions and energy generation. Their explosive properties are used in various high-powered technologies."
+      },
+      "plort": {
+        "name": "Boom Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/7"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/boom.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/boom.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/boom.webp"
+      },
+      "features": [
+        "Explosive",
+        "Likes Puddle Plorts"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Rad Slime",
+      "diet": "Vegetables",
+      "favorite_food": "Radishes",
+      "favorite_toy": "Radio",
+      "slime_type": "Aggressive",
+      "slimepedia": {
+        "snippet": "Their glow is a sign of their radioactive power.",
+        "slimeology": "Rad Slimes are radioactive, glowing slimes that are extremely dangerous to ranchers who get too close without protection. They thrive on vegetables, especially Radishes, and are known to attack when their territory is disturbed.",
+        "rancher_risks": "The radiation from Rad Slimes can cause significant damage to any rancher, especially if not equipped with proper shielding. Always be cautious when handling them.",
+        "plortonomics": "Rad Plorts are used in energy production, particularly in nuclear power and various radiation-based technologies."
+      },
+      "plort": {
+        "name": "Rad Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/8"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/rad.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/rad.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/rad.webp"
+      },
+      "features": [
+        "Radioactive",
+        "Likes Radishes"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Crystal Slime",
+      "diet": "Vegatables",
+      "favorite_food": "Heart Beet",
+      "favorite_toy": "Crystal Ball",
+      "slime_type": "Aggressive",
+      "slimepedia": {
+        "snippet": "Sharp as crystals, their beauty is matched only by their danger.",
+        "slimeology": "Crystal Slimes are dangerous, with sharp, jagged crystals on their bodies that can cause damage. They thrive on vegetables and prefer Heart Beets as their favorite food.",
+        "rancher_risks": "Crystal Slimes are best avoided unless you're properly protected. Their sharp crystals can cause serious harm to anyone who gets too close.",
+        "plortonomics": "Crystal Plorts are valuable for crafting sharp materials, industrial cutting tools, and even jewelry."
+      },
+      "plort": {
+        "name": "Crystal Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/9"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/crystal.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/crystal.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/crystal.webp"
+      },
+      "features": [
+        "Sharp exterior",
+        "Likes Heart Beets"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Tangle Slime",
+      "diet": "Vegatables",
+      "favorite_food": "Cactus Fruit",
+      "favorite_toy": "Flower",
+      "slime_type": "Docile",
+      "slimepedia": {
+        "snippet": "A twist of beauty and nature in their vine-like bodies.",
+        "slimeology": "Tangle Slimes are one of the more interesting slimes, their vine-like bodies making them look like moving plants. They prefer vegetables, with Cactus Fruit being their favorite.",
+        "rancher_risks": "Tangle Slimes are gentle creatures but should be handled with care. Their vine-like nature can entangle ranchers if they're not careful.",
+        "plortonomics": "Tangle Plorts are used to produce organic materials for sustainable technologies and construction."
+      },
+      "plort": {
+        "name": "Tangle Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/10"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/tangle.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/tangle.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/tangle.webp"
+      },
+      "features": [
+        "Vine-like body",
+        "Likes Cactus Fruit"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Dervish Slime",
+      "diet": "Fruit",
+      "favorite_food": "Pomegranate",
+      "favorite_toy": "Windmill",
+      "slime_type": "Docile",
+      "slimepedia": {
+        "snippet": "A whirl of beauty and wind, always in motion.",
+        "slimeology": "Dervish Slimes are energetic and constantly spinning. Their whirlwind nature makes them both beautiful and unpredictable. They prefer fruit, especially Pomegranates.",
+        "rancher_risks": "Dervish Slimes can be dangerous when agitated. Their spinning motion can cause damage to anything in their vicinity, including ranchers.",
+        "plortonomics": "Dervish Plorts are used in wind-based technologies and energy systems, harnessing their swirling nature for various applications."
+      },
+      "plort": {
+        "name": "Dervish Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/11"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/dervish.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/dervish.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/dervish.webp"
+      },
+      "features": [
+        "Whirlwind body",
+        "Likes Pomegranates"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Quantum Slime",
+      "diet": "Vegatables",
+      "favorite_food": "Q-berry",
+      "favorite_toy": "Quantum Clock",
+      "slime_type": "Mysterious",
+      "slimepedia": {
+        "snippet": "A slime that exists in two places at once, defying reality itself.",
+        "slimeology": "Quantum Slimes are enigmatic creatures that exist in a state of quantum flux. They can be in multiple locations simultaneously, making them difficult to track. They prefer vegetables, and their favorite food is the elusive Q-berry.",
+        "rancher_risks": "Quantum Slimes are unpredictable and can cause confusion. Their unique nature makes them tricky to handle, and ranchers need to be careful not to lose track of them.",
+        "plortonomics": "Quantum Plorts are used in quantum computing and teleportation technologies, making them highly valuable for scientific advancements."
+      },
+      "plort": {
+        "name": "Quantum Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/12"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/quantum.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/quantum.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/quantum.webp"
+      },
+      "features": [
+        "Exist in multiple places",
+        "Likes Q-berries"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Mosaic Slime",
+      "diet": "Fruit",
+      "favorite_food": "Mosaic Fruit",
+      "favorite_toy": "Mirror",
+      "slime_type": "Docile",
+      "slimepedia": {
+        "snippet": "Their vibrant colors reflect the beauty of the world around them.",
+        "slimeology": "Mosaic Slimes are known for their stunning appearance, their bodies shimmering with a vibrant mix of colors. They are gentle creatures that love fruit, especially the rare Mosaic Fruit.",
+        "rancher_risks": "Mosaic Slimes are mostly docile, but their vibrant bodies can attract the attention of other slimes, which may result in unexpected encounters.",
+        "plortonomics": "Mosaic Plorts are highly sought after for their use in the creation of decorative items, holographic materials, and energy-efficient lighting."
+      },
+      "plort": {
+        "name": "Mosaic Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/13"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/mosaic.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/mosaic.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/mosaic.webp"
+      },
+      "features": [
+        "Vibrant colors",
+        "Likes Mosaic Fruit"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Gold Slime",
+      "diet": "Gold Plorts",
+      "favorite_food": "None",
+      "favorite_toy": "Treasure Chest",
+      "slime_type": "Rare",
+      "slimepedia": {
+        "snippet": "The most elusive slime, born from pure wealth and fortune.",
+        "slimeology": "Gold Slimes are incredibly rare and elusive. They cannot be captured by conventional means and will often avoid ranchers. They have no favorite food, but they are attracted to Gold Plorts.",
+        "rancher_risks": "Gold Slimes are extremely difficult to catch and can quickly escape. Ranchers need to be lucky to find them, as they disappear as soon as they sense danger.",
+        "plortonomics": "Gold Plorts are incredibly valuable due to their rarity and their use in creating luxurious items and high-end technology."
+      },
+      "plort": {
+        "name": "Gold Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/14"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/gold.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/gold.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/gold.webp"
+      },
+      "features": [
+        "Extremely rare",
+        "Attracted to Gold Plorts"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Saber Slime",
+      "diet": "Meat",
+      "favorite_food": "Meat",
+      "favorite_toy": "Bone",
+      "slime_type": "Feral",
+      "slimepedia": {
+        "snippet": "With saber-toothed ferocity, these slimes are always on the hunt.",
+        "slimeology": "Saber Slimes are ferocious carnivores, known for their saber-tooth-like fangs. They prefer meat and are dangerous if provoked. Though they might seem threatening, they're easily tamed with enough time and effort.",
+        "rancher_risks": "Saber Slimes are highly aggressive and will attack ranchers if they get too close. Their sharp teeth make them a dangerous presence in the Far, Far Range.",
+        "plortonomics": "Saber Plorts are used in high-energy food production and are prized for their strength-enhancing properties."
+      },
+      "plort": {
+        "name": "Saber Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/15"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/saber.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/saber.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/saber.webp"
+      },
+      "features": [
+        "Carnivorous",
+        "Aggressive"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Puddle Slime",
+      "diet": "Water",
+      "favorite_food": "None",
+      "favorite_toy": "Rubber Ducky",
+      "slime_type": "Docile",
+      "slimepedia": {
+        "snippet": "These peaceful slimes thrive in water and are happiest when cool and damp.",
+        "slimeology": "Puddle Slimes are gentle, water-loving slimes that need a water source to stay hydrated. They're harmless and have no favorite food, but they do appreciate rubber duckies as toys.",
+        "rancher_risks": "Puddle Slimes pose no real danger to ranchers. However, ranchers need to keep them hydrated, or they will evaporate and disappear.",
+        "plortonomics": "Puddle Plorts are valuable for their use in creating aquatic-based technologies and are often sought after for various types of energy production."
+      },
+      "plort": {
+        "name": "Puddle Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/16"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/puddle.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/puddle.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/puddle.webp"
+      },
+      "features": [
+        "Water-loving",
+        "Docile and harmless"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Fire Slime",
+      "diet": "Meat",
+      "favorite_food": "None",
+      "favorite_toy": "Flame Ball",
+      "slime_type": "Hostile",
+      "slimepedia": {
+        "snippet": "A fiery slime born from the heart of volcanic regions.",
+        "slimeology": "Fire Slimes are hot-tempered and can only be found in extremely warm environments. They consume meat and can be a threat to ranchers if not handled with care.",
+        "rancher_risks": "Fire Slimes can burn ranchers if they get too close, and their presence can quickly spread fires if not contained.",
+        "plortonomics": "Fire Plorts are useful in generating heat and powering fire-based systems, such as energy-efficient ovens and industrial furnaces."
+      },
+      "plort": {
+        "name": "Fire Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/17"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/fire.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/fire.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/fire.webp"
+      },
+      "features": [
+        "Can burn things",
+        "Lives in hot environments"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Lucky Slime",
+      "diet": "Everything",
+      "favorite_food": "Lucky Bean",
+      "favorite_toy": "Treasure Chest",
+      "slime_type": "Docile",
+      "slimepedia": {
+        "snippet": "The luckiest of all slimes, they bring fortune and treasure wherever they go.",
+        "slimeology": "Lucky Slimes are docile creatures that seem to be able to bring good fortune. They can eat anything and are drawn to Lucky Beans as their favorite food.",
+        "rancher_risks": "Lucky Slimes don't pose much of a risk to ranchers, but ranchers should be cautious as the treasures they leave behind may attract other slimes.",
+        "plortonomics": "Lucky Plorts are valuable for their connection to good luck and fortune, often used in the creation of luck-related products and treasure-hunting tools."
+      },
+      "plort": {
+        "name": "Lucky Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/18"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/lucky.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/lucky.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/lucky.webp"
+      },
+      "features": [
+        "Brings good luck",
+        "Attracted to Lucky Beans"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Glitch Slime",
+      "diet": "Everything",
+      "favorite_food": "None",
+      "favorite_toy": "Glitch Ball",
+      "slime_type": "Mysterious",
+      "slimepedia": {
+        "snippet": "A rare and puzzling slime, thought to exist as a result of quantum anomalies.",
+        "slimeology": "Glitch Slimes are an enigmatic type of slime that may be tied to quantum anomalies in the Far, Far Range. Their origins remain a mystery, but they are known to eat anything and can appear and disappear at will.",
+        "rancher_risks": "Due to their mysterious nature, Glitch Slimes can cause disruptions in the rancher's equipment or surroundings, making them tricky to handle.",
+        "plortonomics": "Glitch Plorts are highly sought after by tech companies for their unique properties, often used in the development of quantum technologies and systems that rely on unpredictability."
+      },
+      "plort": {
+        "name": "Glitch Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/19"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/glitch.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/glitch.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/glitch.webp"
+      },
+      "features": [
+        "Mysterious",
+        "Disrupts technology"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Quicksilver Slime",
+      "diet": "Meat",
+      "favorite_food": "None",
+      "favorite_toy": "Magnet Ball",
+      "slime_type": "Hostile",
+      "slimepedia": {
+        "snippet": "A fast-moving, dangerous slime with the ability to create deadly shockwaves.",
+        "slimeology": "Quicksilver Slimes are aggressive and capable of moving at extremely high speeds, creating shockwaves that can harm ranchers or destroy nearby structures. They are known to be highly territorial and aggressive.",
+        "rancher_risks": "Quicksilver Slimes are a significant danger due to their speed and shockwaves. Ranchers should be cautious when dealing with them, as they can easily overwhelm an unprepared rancher.",
+        "plortonomics": "Quicksilver Plorts are used in high-speed manufacturing and energy production, where their properties are exploited for various types of machinery and rapid transport systems."
+      },
+      "plort": {
+        "name": "Quicksilver Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/20"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/quicksilver.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/quicksilver.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/quicksilver.webp"
+      },
+      "features": [
+        "Extremely fast",
+        "Can create shockwaves"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Cotton Slime",
+      "diet": "Veggies",
+      "favorite_food": "Heart Beet",
+      "favorite_toy": "Ribbon Ball",
+      "slime_type": "Docile",
+      "slimepedia": {
+        "snippet": "Fluffy and sweet, Cotton Slimes are the definition of cuteness.",
+        "slimeology": "Cotton Slimes are gentle creatures known for their soft, fluffy bodies and love of veggies. They are docile and non-aggressive, making them easy to care for.",
+        "rancher_risks": "Cotton Slimes do not pose significant risks, but their fluffiness can make them difficult to spot at times, leading to accidental plort collection in unintended places.",
+        "plortonomics": "Cotton Plorts are highly valued for their soft texture and are used in products ranging from pillows to plush toys. They're particularly prized in the crafting industry."
+      },
+      "plort": {
+        "name": "Cotton Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/21"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/cotton.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/cotton.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/cotton.webp"
+      },
+      "features": [
+        "Fluffy",
+        "Loves veggies"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Ringtail Slime",
+      "diet": "Everything",
+      "favorite_food": "Ringtail Treat",
+      "favorite_toy": "Ball of Yarn",
+      "slime_type": "Curious",
+      "slimepedia": {
+        "snippet": "A sly and curious slime, always looking for something to hide.",
+        "slimeology": "Ringtail Slimes are mischievous and curious, always hiding objects in their tails and scavenging for food. They're docile but can be tricky to handle due to their curious nature.",
+        "rancher_risks": "Ringtail Slimes don't pose a direct threat, but their sneaky behavior can lead to problems if they steal items or food from a rancher's inventory.",
+        "plortonomics": "Ringtail Plorts are valuable for their use in crafting and decoration. Their ability to disguise themselves with their tails makes them useful in various cultural practices."
+      },
+      "plort": {
+        "name": "Ringtail Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/22"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/ringtail.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/ringtail.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/ringtail.webp"
+      },
+      "features": [
+        "Curious",
+        "Stealthy and mischievous"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Sloomber Slime",
+      "diet": "Veggies",
+      "favorite_food": "Plum",
+      "favorite_toy": "Sloomber Ball",
+      "slime_type": "Friendly",
+      "slimepedia": {
+        "snippet": "A gentle slime, well-known for its soft, squishy appearance.",
+        "slimeology": "Sloomber Slimes are docile and friendly, making them great companions. They are fond of veggies and are often seen relaxing in the gardens of the Far, Far Range.",
+        "rancher_risks": "Sloomber Slimes are not aggressive but can sometimes be difficult to spot because they blend in with their environment. Ranchers should be careful when managing their surroundings.",
+        "plortonomics": "Sloomber Plorts are used in soothing products and natural skincare, as their soft properties make them ideal for the wellness industry."
+      },
+      "plort": {
+        "name": "Sloomber Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/23"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/sloomber.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/sloomber.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/sloomber.webp"
+      },
+      "features": [
+        "Gentle and squishy",
+        "Loves veggies"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Twin Slime",
+      "diet": "Meat",
+      "favorite_food": "None",
+      "favorite_toy": "Twinning Ball",
+      "slime_type": "Mysterious",
+      "slimepedia": {
+        "snippet": "A mysterious slime that appears to be two slimes in one.",
+        "slimeology": "Twin Slimes are a rare and enigmatic slime type. They appear to be two slimes merged together, capable of switching between two distinct personalities. This duality makes them unpredictable and difficult to manage.",
+        "rancher_risks": "The unpredictability of Twin Slimes can be a challenge for ranchers. Depending on their mood, they can become territorial or docile, making it hard to anticipate their behavior.",
+        "plortonomics": "Twin Plorts are an extremely rare commodity, highly sought after for their unpredictable properties. They are valuable in industries that deal with duality and transformation, like quantum mechanics and split technology."
+      },
+      "plort": {
+        "name": "Twin Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/24"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/twin.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/twin.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/twin.webp"
+      },
+      "features": [
+        "Dual personalities",
+        "Rare and mysterious"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Batty Slime",
+      "diet": "Meat",
+      "favorite_food": "Drumstick",
+      "favorite_toy": "Bat Toy",
+      "slime_type": "Aggressive",
+      "slimepedia": {
+        "snippet": "A fierce slime with bat-like features, known for its quick attacks.",
+        "slimeology": "Batty Slimes have sharp claws and a very aggressive nature. They are capable of high-speed flight, making them difficult to capture and manage. Their love for meat makes them dangerous to other slimes.",
+        "rancher_risks": "Batty Slimes are highly aggressive, especially around their food. Ranchers need to be on guard when working with them to avoid injury or losing resources.",
+        "plortonomics": "Batty Plorts are used in the production of certain toxic compounds and can be dangerous if not handled carefully. They are valuable in the manufacturing of specialized weapons and tools."
+      },
+      "plort": {
+        "name": "Batty Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/25"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/batty.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/batty.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/batty.webp"
+      },
+      "features": [
+        "Aggressive",
+        "Quick flight"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Yolky Slime",
+      "diet": "Veggies",
+      "favorite_food": "Yolk Fruit",
+      "favorite_toy": "Egg Toy",
+      "slime_type": "Gentle",
+      "slimepedia": {
+        "snippet": "A slime that lays eggs, known for its gentle nature.",
+        "slimeology": "Yolky Slimes are gentle slimes that can lay eggs, which makes them stand out among other slime species. They're particularly fond of veggies and are often seen in farming environments.",
+        "rancher_risks": "Yolky Slimes are gentle but should be monitored carefully, as their eggs can cause a mess in a rancher’s area if left unchecked.",
+        "plortonomics": "Yolky Plorts are utilized in the food industry and culinary world due to their egg-like properties. They are highly valuable for a variety of dishes, especially in egg-based recipes."
+      },
+      "plort": {
+        "name": "Yolky Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/26"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/yolky.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/yolky.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/yolky.webp"
+      },
+      "features": [
+        "Egg-laying",
+        "Gentle"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Flutter Slime",
+      "diet": "Fruit",
+      "favorite_food": "Heart Fruit",
+      "favorite_toy": "Flutter Ball",
+      "slime_type": "Flighty",
+      "slimepedia": {
+        "snippet": "A colorful slime with wings that loves to fly.",
+        "slimeology": "Flutter Slimes are beautiful and vibrant, known for their colorful wings and ability to hover in the air. They are very shy, often staying high in the air to avoid danger. They prefer fruit and are usually found near orchards.",
+        "rancher_risks": "Because of their flying nature, Flutter Slimes can be difficult to corral. Ranchers need to ensure their containment areas are suitable for aerial creatures, which can sometimes be challenging.",
+        "plortonomics": "Flutter Plorts are used in beauty products and perfumes due to their aromatic properties. They are highly sought after for their delicate fragrance and vibrant color."
+      },
+      "plort": {
+        "name": "Flutter Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/27"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/flutter.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/flutter.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/flutter.webp"
+      },
+      "features": [
+        "Flighty and colorful",
+        "Loves fruit"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Angler Slime",
+      "diet": "Meat",
+      "favorite_food": "Cooked Fish",
+      "favorite_toy": "Angler Toy",
+      "slime_type": "Aggressive",
+      "slimepedia": {
+        "snippet": "A fearsome slime with a lure on its head, dangerous but valuable.",
+        "slimeology": "Angler Slimes are dangerous predators with a fishing lure-like appendage on their heads. They are aggressive and will attack anything that they perceive as prey. Despite their aggression, they are valuable for their plorts.",
+        "rancher_risks": "Angler Slimes are very aggressive, especially around their favorite food—fish. Ranchers must be cautious when handling them to avoid getting hurt or losing resources.",
+        "plortonomics": "Angler Plorts are used in the fishing and seafood industries, and they are highly sought after for their use in creating special bait and fish-related products."
+      },
+      "plort": {
+        "name": "Angler Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/28"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/angler.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/angler.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/angler.webp"
+      },
+      "features": [
+        "Aggressive",
+        "Has a fishing lure"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Shadow Slime",
+      "diet": "Meat",
+      "favorite_food": "None",
+      "favorite_toy": "Shadow Ball",
+      "slime_type": "Mysterious",
+      "slimepedia": {
+        "snippet": "A mysterious slime from the dark corners of the world.",
+        "slimeology": "Shadow Slimes are elusive and enigmatic. They appear to blend into the shadows, making them hard to spot. They have a unique ability to create darkness wherever they go, which makes them a strange and fascinating slime.",
+        "rancher_risks": "Because of their ability to hide in shadows, Shadow Slimes can be difficult to manage. They may also create dark areas where other slimes can become trapped or lost, requiring extra care.",
+        "plortonomics": "Shadow Plorts are highly valuable for their use in creating stealth-based technologies and dark-vision equipment. They are prized in industries that require invisibility and secrecy."
+      },
+      "plort": {
+        "name": "Shadow Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/29"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/shadow.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/shadow.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/shadow.webp"
+      },
+      "features": [
+        "Mysterious and elusive",
+        "Can create darkness"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Tarr Slime",
+      "diet": "Slimes",
+      "favorite_food": "None",
+      "favorite_toy": "None",
+      "slime_type": "Aggressive",
+      "slimepedia": {
+        "snippet": "A dangerous slime that devours other slimes, turning everything into chaos.",
+        "slimeology": "Tarr Slimes are a hostile, destructive force in the world of slimes. They consume other slimes, and once they start, they can quickly turn into a violent swarm, threatening the safety of the Far, Far Range.",
+        "rancher_risks": "The Tarr Slime is extremely dangerous. Once it has consumed enough slimes, it will attack everything in its path, including ranchers. It is vital to keep it from spreading and causing devastation.",
+        "plortonomics": "Tarr Plorts are considered to be hazardous materials and are not used for anything valuable. They are dangerous and can cause widespread destruction if not dealt with properly."
+      },
+      "plort": {
+        "name": "Tarr Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/30"
+      },
+      "images": {
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/tarr.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/tarr.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/tarr.webp"
+      },
+      "features": [
+        "Dangerous",
+        "Devours other slimes"
       ]
     }
   ]
