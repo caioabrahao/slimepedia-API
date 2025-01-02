@@ -1,0 +1,39 @@
+{
+    "ranchers": [
+        {
+            "id": 1,
+            "name": "Beatrix LeBeau",
+            "description": "The main protagonist of Slime Rancher. She is a plucky, young rancher who sets out for a life a thousand light years away from Earth on the 'Far, Far Range'."
+        },
+        {
+            "id": 2,
+            "name": "Hobson Twillgers",
+            "description": "The previous owner of the ranch before Beatrix. He left behind notes and messages for future ranchers."
+        },
+        {
+            "id": 3,
+            "name": "Thora West",
+            "description": "A rancher who provides Beatrix with helpful tips and advice. She is also Hobson's partner."
+        },
+        {
+            "id": 4,
+            "name": "Ogden Ortiz",
+            "description": "A farmer who specializes in growing exotic fruits and vegetables. He offers Beatrix various rewards in exchange for helping him with his farm."
+        },
+        {
+            "id": 5,
+            "name": "Mochi Miles",
+            "description": "A competitive and wealthy rancher who runs a slime racing business. She offers Beatrix rewards for participating in her races."
+        },
+        {
+            "id": 6,
+            "name": "Viktor Humphries",
+            "description": "A scientist and inventor who is fascinated by slimes. He offers Beatrix various rewards for helping him with his research."
+        },
+        {
+            "id": 7,
+            "name": "Bob",
+            "description": "A mysterious character who communicates through letters and seems to be obsessed with chickens."
+        }
+    ]
+}

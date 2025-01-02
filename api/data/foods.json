@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Pogo Fruit",
+        "type": "fruit"
+    },
+    {
+        "id": 2,
+        "name": "Cuberry",
+        "type": "fruit"
+    },
+    {
+        "id": 3,
+        "name": "Mint Mango",
+        "type": "fruit"
+    },
+    {
+        "id": 4,
+        "name": "Heart Beet",
+        "type": "veggie"
+    },
+    {
+        "id": 5,
+        "name": "Oca Oca",
+        "type": "veggie"
+    },
+    {
+        "id": 6,
+        "name": "Carrot",
+        "type": "veggie"
+    },
+    {
+        "id": 7,
+        "name": "Odd Onion",
+        "type": "veggie"
+    },
+    {
+        "id": 8,
+        "name": "Hen Hen",
+        "type": "chicken"
+    },
+    {
+        "id": 9,
+        "name": "Stony Hen",
+        "type": "chicken"
+    },
+    {
+        "id": 10,
+        "name": "Briar Hen",
+        "type": "chicken"
+    },
+    {
+        "id": 11,
+        "name": "Roostro",
+        "type": "chicken"
+    }
+]

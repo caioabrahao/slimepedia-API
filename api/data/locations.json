@@ -1,0 +1,59 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "The Ranch",
+            "description": "The player's home base where they can raise slimes and grow crops."
+        },
+        {
+            "id": 2,
+            "name": "The Dry Reef",
+            "description": "A coral-crusted ocean floor that now basks under a golden sun."
+        },
+        {
+            "id": 3,
+            "name": "The Moss Blanket",
+            "description": "A wild, untamed thicket of flora that is home to some of the most dangerous slimes."
+        },
+        {
+            "id": 4,
+            "name": "The Indigo Quarry",
+            "description": "A winding network of caves and cliffs, home to rock and crystal slimes."
+        },
+        {
+            "id": 5,
+            "name": "The Ancient Ruins",
+            "description": "A mysterious and ancient place filled with strange technology and quantum slimes."
+        },
+        {
+            "id": 6,
+            "name": "The Glass Desert",
+            "description": "A vast, shimmering desert that is home to fire and mosaic slimes."
+        },
+        {
+            "id": 7,
+            "name": "The Slime Sea",
+            "description": "An endless expanse of water that surrounds the Far, Far Range."
+        },
+        {
+            "id": 8,
+            "name": "The Wilds",
+            "description": "A dangerous and untamed area filled with feral slimes."
+        },
+        {
+            "id": 9,
+            "name": "Nimble Valley",
+            "description": "A special area where players can participate in Mochi Miles' Quicksilver Slime races."
+        },
+        {
+            "id": 10,
+            "name": "Ogden's Retreat",
+            "description": "A lush, tropical area where players can help Ogden Ortiz grow exotic fruits."
+        },
+        {
+            "id": 11,
+            "name": "Victor's Workshop",
+            "description": "A high-tech area where players can assist Victor Humphries with his research on glitch slimes."
+        }
+    ]
+}
