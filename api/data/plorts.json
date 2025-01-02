@@ -76,7 +76,7 @@
             "value": 90,
             "description": "A radioactive plort from Rad Slimes, useful in powering certain machines.",
             "image": {
-                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/rad.webp",
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/rad.webp",
                 "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/rad.webp"
             }
         },
@@ -116,7 +116,7 @@
             "value": 200,
             "description": "A rare, quantum-based plort from Quantum Slimes, used in advanced science and technology.",
             "image": {
-                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/quantum.webp",
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/quantum.webp",
                 "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/quantum.webp"
             }
         },
@@ -126,7 +126,7 @@
             "value": 250,
             "description": "A colorful and valuable plort from Mosaic Slimes, known for its aesthetic beauty.",
             "image": {
-                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/mosaic.webp",
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/mosaic.webp",
                 "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/mosaic.webp"
             }
         },
@@ -171,32 +171,12 @@
             }
         },
         {
-            "id": 18,
-            "name": "Lucky Plort",
-            "value": 100,
-            "description": "A rare plort dropped by Lucky Slimes, can be exchanged for valuable items in Lucky Slime events.",
-            "image": {
-                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/lucky.webp",
-                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/lucky.webp"
-            }
-        },
-        {
-            "id": 19,
-            "name": "Glitch Plort",
-            "value": 0,
-            "description": "A mysterious plort that appears during Glitch events, currently of unknown value.",
-            "image": {
-                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/glitch.webp",
-                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/glitch.webp"
-            }
-        },
-        {
             "id": 20,
             "name": "Quicksilver Plort",
             "value": 200,
             "description": "A high-speed plort, useful in creating advanced energy and machinery.",
             "image": {
-                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/quicksilver.webp",
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/quicksilver.webp",
                 "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/quicksilver.webp"
             }
         },
