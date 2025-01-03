@@ -7,34 +7,33 @@ hero:
   image:
     file: ../../assets/Glitch_Slime.webp
   actions:
-    - text: Docs
+    - text: Get Started
       link: /guides/getting-started/
       icon: right-arrow
     - text: API Repository
       link: https://github.com/caioabrahao/slimepedia-API
-      icon: github
+      icon: external
       variant: minimal
 ---
+import { LinkButton } from '@astrojs/starlight/components';
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+# 🚀 The API for Ranchers and Programmers
+The Slimepedia API is a RESTful API that provides information about the slimes in the game Slime Rancher. It is a free and open-source project that aims to provide a simple and easy-to-use interface for developers to access information about the everything Slime Rancher!
 
-## TRY IT RIGHT NOW
-
+#### Start using it now!
+<div style="width: 50%">
 ```bash
-curl https://slimepedia-api.herokuapp.com/api/v1/slimes
+https://slimepedia-api.vercel.app/api/slimes
 ```
+</div>
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>
+
+# ✨ We give you the data, you make the magic
+With the Slimepedia API you have access to a wide range of information from the Slime Rancher games. That means less time worrying about sorting data and more time building awesome projects!
+
+### 📱 Share your projects with us!
+We love to see what you can create with the Slimepedia API! Share your projects with me on [Twitter](https://x.com/taldeabrahao) or come chat with us on Discord.
+
+We might feature your project on our website or social media! 🌟
+
+<LinkButton href="https://discord.gg/vW9dTYTexa" variant="secondary" icon="discord" iconPlacement='start'>Discord Community</LinkButton>

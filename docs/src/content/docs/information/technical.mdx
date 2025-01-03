@@ -1,0 +1,28 @@
+---
+title: Technical Information
+description: Technical information about the API.
+---
+import { Aside } from '@astrojs/starlight/components';
+
+The following are some technical information about the API itself.
+
+<Aside>
+Because the API is currently under development and demand is uncertain, most of the storage and hosting solutions are simple and not suited for high demand.
+
+All the backend might be refactored in the future to accommodate more requests and data, if needed.
+</Aside>
+
+## Hosting
+The API is hosted on Vercel, using serverless functions to handle the requests. 
+All the requests are subject to Vercel's rate limiting, which is currently set to `100` requests per minute.
+
+Image hosting is done through GitHub, using the same repository as the API itself.
+
+## Data Storage
+The data is stored in a JSON file, which is read and parsed by the serverless functions on each request.
+
+Because of the small size of the data, this solution is enough for the current demand. If the demand increases, the data storage solution might be refactored to a more robust solution.
+
+## API Documentation
+This documentation website is created using Astro Starlight for convenience and ease of use.
+

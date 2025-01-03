@@ -3,7 +3,6 @@ title: Data Models
 description: How the data is structured
 ---
 import { Aside } from '@astrojs/starlight/components';
-import { FileTree } from '@astrojs/starlight/components';
 
 <Aside type='caution' title='Work in progress'>
     The data models reference is still a work in progress. We are working hard to provide you with the most accurate and up-to-date information.
@@ -18,16 +17,32 @@ The Slimepedia API is all about slimes, so it makes sense to start with the Slim
 ``` json
 "slimes": [
       {
-        "id": 1,
-        "name": "Pink Slime",
-        "diet": ["Fruits", "Vegetables", "Meat"],
-        "favoriteFood": "None",
-        "habitat": "Everywhere",
-        "features": [
-          "Very common and friendly",
-          "Can eat anything"
-        ]
+      "id": 1,
+      "name": "Pink Slime",
+      "diet": "Everything",
+      "favorite_food": "None",
+      "favorite_toy": "Beach Ball",
+      "slime_type": "Docile",
+      "slimepedia": {
+        "snippet": "Their coral hue is scientifically proven to be the color of cheer.",
+        "slimeology": "Pink Slimes are the most common slime found on the Far, Far Range. They're cheerful, docile, and the easiest of all slimes to ranch. A pink slime will eat anything you put in front of it, though they have no favorite food, and their plorts are the least valuable of all slimes.",
+        "rancher_risks": "Not much to worry about with a pink slime. They're soft, squishy, very happy to be around a rancher, and found all over the Range. But because of this, a rancher won't go far without finding a few pink plorts, which can lead to largos, and then...",
+        "plortonomics": "Pink Plorts are an excellent multipurpose generic substance used to manufacture everything from food products to household cleaners. All over earth, people are eating burgers, sweetening their coffees or scrubbing their floors with pink plort products. That's some serious versatility!"
       },
+      "plort": {
+        "name": "Pink Plort",
+        "url": "https://slimepedia-api.vercel.app/api/plorts/1"
+      },
+      "images":{
+        "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr2/pink.webp",
+        "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/pink.webp",
+        "secret_style": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/slimes/sr1/secret_style/pink.webp"
+      },
+      "features": [
+        "Very common and friendly",
+        "Can eat anything"
+      ]
+    }
 ```
 
 ### Data Types
@@ -41,6 +56,20 @@ The Slimepedia API is all about slimes, so it makes sense to start with the Slim
 | `features`   | array | Additional details about the slime | `["Very common and friendly"]` |
 
 ## Plorts
+The following is an example of how the Plort data model is structured:
+
+``` json
+      {
+      "id": 1,
+      "name": "Pink Plort",
+      "value": 10,
+      "description": "A multipurpose, common plort used for various everyday products.",
+      "image": {
+          "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/pink.webp",
+          "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/pink.webp"
+        }
+      }
+```
 
 ## Locations
 

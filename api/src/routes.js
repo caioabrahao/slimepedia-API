@@ -13,7 +13,6 @@ router.get('/slimes', (req, res) => {
   res.json(slimes);
 });
 
-
 router.get('/slimes/:id', (req, res) => {
   const slimeId = parseInt(req.params.id, 10); // Convert ID to number
   const slime = slimes.slimes.find(s => s.id === slimeId);
@@ -24,6 +23,8 @@ router.get('/slimes/:id', (req, res) => {
     res.status(404).json({ error: 'Slime not found' });
   }
 });
+
+// Plort routes
 
 router.get('/plorts', (req, res) => {
   res.json(plorts);

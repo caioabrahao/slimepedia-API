@@ -9,15 +9,22 @@ export default defineConfig({
     starlight({
       favicon: '/favicon.png',
       title: 'Slimepedia API',
+      logo: {
+        src: './src/assets/Glitch_Slime.webp',
+      },
+      customCss: [
+        './src/styles/custom.css',
+      ],
       social: {
         github: 'https://github.com/caioabrahao/slimepedia-API',
+        discord: 'https://discord.gg/vW9dTYTexa',
       },
       sidebar: [
         {
           label: 'Information',
           items: [
             { label: 'Overview', slug: 'information/overview' },
-            { label: 'Introduction', slug: 'information/introduction' },
+            { label: 'Technical', slug: 'information/technical' },
             { label: 'Contributing', slug: 'information/contributing' },
           ],
         },
