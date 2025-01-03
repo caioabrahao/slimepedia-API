@@ -269,16 +269,6 @@
                 "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/shadow.webp",
                 "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/shadow.webp"
             }
-        },
-        {
-            "id": 30,
-            "name": "Tarr Plort",
-            "value": 0,
-            "description": "A plort that only appears when a Tarr Slime is present, resulting from the consumption of slimes and plorts. Dangerous and toxic.",
-            "image": {
-                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr2/tarr.webp",
-                "sl1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/plorts/sr1/tarr.webp"
-            }
         }
         
     ]
