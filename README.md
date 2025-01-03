@@ -2,13 +2,6 @@
 
 Welcome to the Slimepedia API project! This API provides comprehensive data related to the Slime Rancher games.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 

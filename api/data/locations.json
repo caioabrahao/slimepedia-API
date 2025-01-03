@@ -1,59 +1,415 @@
 {
-    "locations": [
+    "sr1":[
         {
             "id": 1,
             "name": "The Ranch",
-            "description": "The player's home base where they can raise slimes and grow crops."
+            "slimepedia": {
+                "snippet": "A distant home for distant hearts.",
+                "entry": "Beatrix begins her life on a humble ranch in the middle of an area in the Far, Far Range known as the Dry Reef. Once the property of the legendary slime rancher and notorious old codger, Hobson Twillgers, the ranch has seen better days, as Hobson let it come into a state of disrepair shortly before disappearing completely."
+            },
+            "cost": 0,
+            "gadget_sites": 27,
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/ranch/ranch.webp"
+            },
+            "type": "Ranch"
         },
         {
             "id": 2,
-            "name": "The Dry Reef",
-            "description": "A coral-crusted ocean floor that now basks under a golden sun."
+            "name": "The Grotto",
+            "slimepedia": {
+                "snippet": "A dark and gloomy cavern above the sea and a likely first chapter to that novel of yours.",
+                "entry": "The Grotto is an expansion to the ranch set inside a (slightly spooky) cave that allows a rancher to care for light-sensitive slimes without the need for a solar shield. Never has a phosphor slime felt so liberated."
+            },
+            "cost": 1795,
+            "gadget_sites": 11,
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/ranch/grotto.webp"
+            },
+            "type": "Ranch"
         },
         {
             "id": 3,
-            "name": "The Moss Blanket",
-            "description": "A wild, untamed thicket of flora that is home to some of the most dangerous slimes."
+            "name": "The Overgrowth",
+            "slimepedia": {
+                "snippet": "The ranch's very own wild side.",
+                "entry": "The Overgrowth is an expansion to the ranch that is covered in moss and tall grasses. The thicket it creates allows for fruit and veggies to grow naturally and attracts the occasional wild chicken, making it an ideal space for a rancher that wants to let their slimes roam more freely."
+            },
+            "cost": 1795,
+            "gadget_sites": 12,
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/ranch/overgrowth.webp"
+            },
+            "type": "Ranch"
         },
         {
             "id": 4,
-            "name": "The Indigo Quarry",
-            "description": "A winding network of caves and cliffs, home to rock and crystal slimes."
+            "name": "The Lab",
+            "slimepedia": {
+                "snippet": "The ranch's very own wild side.",
+                "entry": "The Overgrowth is an expansion to the ranch that is covered in moss and tall grasses. The thicket it creates allows for fruit and veggies to grow naturally and attracts the occasional wild chicken, making it an ideal space for a rancher that wants to let their slimes roam more freely."
+            },
+            "cost": 10000,
+            "gadget_sites": 15,
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/ranch/lab.webp"
+            },
+            "type": "Ranch"
         },
         {
             "id": 5,
-            "name": "The Ancient Ruins",
-            "description": "A mysterious and ancient place filled with strange technology and quantum slimes."
+            "name": "The Docks",
+            "slimepedia": {
+                "snippet": "Deep, deep down in the great, blue sea, I saw a thousand slimes smiling back at me.",
+                "entry": "The Docks is an expansion to the ranch that repurposes a cozy, little lookout along the waterfront. This expansion offers a few extra ranch patches flanked on several sides with fishing nets. The nets can be used to temporarily catch escaped slimes or as a means of creating physical collages of slimes because it's fun."
+            },
+            "cost": 5000,
+            "gadget_sites": 11,
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/ranch/docs.webp"
+            },
+            "type": "Ranch"
         },
         {
             "id": 6,
-            "name": "The Glass Desert",
-            "description": "A vast, shimmering desert that is home to fire and mosaic slimes."
+            "name": "Ogden's Retreat",
+            "slimepedia": {
+                "snippet": "Where to retreat after you've escaped.",
+                "entry": "Ogden built this little getaway as a place where he could take a break from his ranch and collect his thoughts. But soon it led to an obsession as he discovered the nearby Wilds, and the tasty kookadoba fruit within."
+            },
+            "cost": 0,
+            "gadget_sites": 14,
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/ranch/ogdens_retreat.webp"
+            },
+            "type": "Ranch"
+        },
+        {
+            "id": 6,
+            "name": "Ogden's Retreat",
+            "slimepedia": {
+                "snippet": "Where to retreat after you've escaped.",
+                "entry": "Ogden built this little getaway as a place where he could take a break from his ranch and collect his thoughts. But soon it led to an obsession as he discovered the nearby Wilds, and the tasty kookadoba fruit within."
+            },
+            "cost": 0,
+            "gadget_sites": 14,
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/ranch/ogdens_retreat.webp"
+            },
+            "type": "Ranch"
         },
         {
             "id": 7,
-            "name": "The Slime Sea",
-            "description": "An endless expanse of water that surrounds the Far, Far Range."
+            "name": "Mochi's Manor",
+            "slimepedia": {
+                "snippet": "Unequivocally the most amazing place on the Far, Far Range.",
+                "entry": "Mochi's Manor is one of several of its kind, (and this one isn't even the best one) owned by the great Mochi Miles. Her accomplishments are known throughout the galaxy, earning her the respect of every rancher on the Far, Far Range. Other ranchers can't even compete. They were even going to give an award to Mochi, but she said no thanks."
+            },
+            "cost": 0,
+            "gadget_sites": 14,
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/ranch/mochis_manor.webp"
+            },
+            "type": "Ranch"
         },
         {
             "id": 8,
-            "name": "The Wilds",
-            "description": "A dangerous and untamed area filled with feral slimes."
+            "name": "Viktor's Workshop",
+            "slimepedia": {
+                "snippet": "No chickens or carrots. Only slimes.",
+                "entry": "Deep below the Slime Sea, Viktor's Workshop is one part laboratory, one part ranch that Viktor developed himself. The workshop houses his Slimeulation system that is currently filled with bugs and technical glitches and in need of further testing. Because of this, Viktor has moved on to an unknown, new project somewhere on the Far, Far Range while he seeks a partner to help troubleshoot the Slimeulation."
+            },
+            "cost": 0,
+            "gadget_sites": 12,
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/ranch/viktors_workshop.webp"
+            },
+            "type": "Ranch"
         },
         {
             "id": 9,
-            "name": "Nimble Valley",
-            "description": "A special area where players can participate in Mochi Miles' Quicksilver Slime races."
+            "name": "The Slime Sea",
+            "slimepedia": {
+                "snippet": "An expansive body of a water and slime compound that's not fit for swimming, let alone drinking.",
+                "entry": "The Slime Sea that covers most of the Far, Far Range is something of a mystery. It is seemingly a mixture of water and slime that is believed to be the primordial pool where all slimes emerged, though its true purpose is entirely unknown by even the most esteemed slime scientists."
+            },
+            "cost": 0,
+            "gadget_sites": 11,
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/biomes/slime_sea.webp"
+            },
+            "type": "Wilderness"
         },
         {
             "id": 10,
-            "name": "Ogden's Retreat",
-            "description": "A lush, tropical area where players can help Ogden Ortiz grow exotic fruits."
+            "name": "The Dry Reef",
+            "slimepedia": {
+                "snippet": "A coral-crusted ocean floor that now basks under a golden sun.",
+                "entry": "The environment surrounding the ranch is known as the Dry Reef and is an arid, wind-swept land covered in dusty crags and rocky cliffs shaped by the wind over the millennia."
+            },
+            "cost": 0,
+            "gadget_sites": 76,
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/biomes/dry_reef.webp"
+            },
+            "type": "Wilderness"
         },
         {
             "id": 11,
-            "name": "Victor's Workshop",
-            "description": "A high-tech area where players can assist Victor Humphries with his research on glitch slimes."
+            "name": "The Moss Blanket",
+            "slimepedia": {
+                "snippet": "Like a flower blooming from a rocky crack, this emerald expanse hints at what could be.",
+                "entry": "The Moss Blanket is an island covered with a thick layer of moss where flora grows wild in great, tangling knots at every turn. The high walls of the cliffs surrounding the island and its great canopy of trees allow for sea mists to pass in and become trapped, creating a unique climate within the otherwise arid range."
+            },
+            "cost": 0,
+            "gadget_sites": 64,
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/biomes/moss_blanked.webp"
+            },
+            "type": "Wilderness"
+        },
+        {
+            "id": 12,
+            "name": "The Indigo Quarry",
+            "slimepedia": {
+                "snippet": "All that remains of a mining project that quickly went bust.",
+                "entry": "The Indigo Quarry is a winding network of caves and cliffs, striated with deep purple hills from the rare minerals found within it. It was once the site of a mining project but went bust after the discovery that the rare ores it produces quickly break down in the atmospheres other than that of the Far, Far Range."
+            },
+            "cost": 0,
+            "gadget_sites": 71,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/biomes/indigo_quarry.webp"
+            },
+            "type": "Wilderness"
+        },
+        {
+            "id": 13,
+            "name": "The Ancient Ruins",
+            "slimepedia": {
+                "snippet": "All that is lost is eventually found, and lost once more.",
+                "entry": "Hidden behind a vast mountain range, the Ancient Ruins stand as one of the few known unnatural structures on the Far, Far Range. Their origin remains a mystery, as do the strange occurrences that happen within."
+            },
+            "cost": 0,
+            "gadget_sites": 67,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/biomes/ancient_ruins.webp"
+            },
+            "type": "Wilderness"
+        },
+        {
+            "id": 14,
+            "name": "The Glass Desert",
+            "slimepedia": {
+                "snippet": "Under a blistering sun, prismatic giants evoke beauty and peril.",
+                "entry": "The Glass Desert is mostly uncharted territory within the Far, Far Range, located so far beyond the ranch it is only accessible via teleportation."
+            },
+            "cost": 0,
+            "gadget_sites": 84,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/biomes/glass_desert.webp"
+            },
+            "type": "Wilderness"
+        },
+        {
+            "id": 15,
+            "name": "The Wilds",
+            "slimepedia": {
+                "snippet": "Filled with the deepest roots of the slime family tree.",
+                "entry": "The Wilds are an ancient, untamed collection of islands that are home to an enormous population of feral slimes. All of these slimes are largo desecendants[sic] of saber slimes, one of the oldest known species of slimes."
+            },
+            "cost": 0,
+            "gadget_sites": 0,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/biomes/wilds.webp"
+            },
+            "type": "Wilderness"
+        },
+        {
+            "id": 16,
+            "name": "The Nimble Valley",
+            "slimepedia": {
+                "snippet": "A nice place to visit. If Mochi ever lets you.",
+                "entry": "The Nimble Valley is a wholly-owned property of Mochi Miles and the only known habitat of the exceedingly rare quicksilver slimes."
+            },
+            "cost": 0,
+            "gadget_sites": 0,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/biomes/nimble_valley.webp"
+            },
+            "type": "Wilderness"
+        },
+        {
+            "id": 17,
+            "name": "The Slimeulation",
+            "slimepedia": {
+                "snippet": "Virtually better than the real thing.",
+                "entry": "The Slimeulation is an in-development, virtual re-creation of the Far, Far Range created by Viktor Humphries. The goal of the Slimeulation is to predict slime behaviors and evolution, but unfortunately it is riddled with bugs in the codebase which have produced a curious anomaly known as glitch slimes."
+            },
+            "cost": 0,
+            "gadget_sites": 0,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr1/biomes/slimeulation.webp"
+            },
+            "type": "Wilderness"
         }
+    ],
+    "sr2":[
+        {
+            "id": 1,
+            "name": "The Conservatory",
+            "slimepedia": {
+                "snippet": "Your gateway to a prismatic paradise.",
+                "entry": "When Beatrix first arrived at Rainbow Island she discovered this mysterious, abandoned Conservatory and decided to use it as her home away from home, as it has all the facilities an experienced slime rancher would need to make a living."
+            },
+            "cost": 0,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr2/ranch/conservatory.webp"
+            },
+            "type": "Ranch"
+        },
+        {
+            "id": 2,
+            "name": "The Archway",
+            "slimepedia": {
+                "snippet": "An expansion to the conservatory set amongst ancient ruins and fields of rainbow grass.",
+                "entry": "The Archway is an expansion to the conservatory set amongst grass-covered ruins from a time long ago. Pogofruits and carrots grow between the cracks in the stone, making this a great spot for slimes that enjoy some fruits and veggies in their diet."
+            },
+            "cost": 1800,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr2/ranch/archway.webp"
+            },
+            "type": "Ranch"
+        },
+        {
+            "id": 3,
+            "name": "The Den",
+            "slimepedia": {
+                "snippet": "This dark, damp, mushroom-covered expansion to the conservatory is a refuge from the sun for slimes and ranchers alike.",
+                "entry": "Hidden within a large rounded hill resides the Den, an expansion to the conservatory. This dark, damp cave is a refuge from the sun for slimes and ranches alike. Phosphor slimes in particular enjoy the mushroom-lined walls, while Batty slimes love to stretch their wings in their natural habitat."
+            },
+            "cost": 1800,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr2/ranch/den.webp"
+            },
+            "type": "Ranch"
+        },
+        {
+            "id": 4,
+            "name": "The Digsite",
+            "slimepedia": {
+                "snippet": "A curious archaeological site with plenty of room for a creative rancher to clean up and make it their own.",
+                "entry": "The Digsite is an expansion that revealed itself when a wall collapsed inside the Den, revealing an abandoned archaeological site. It's not clear what the excavator was searching for on the site's windswept cliffs, or if they ever discovered it."
+            },
+            "cost": 4500,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr2/ranch/digsite.webp"
+            },
+            "type": "Ranch"
+        },
+        {
+            "id": 5,
+            "name": "The Gully",
+            "slimepedia": {
+                "snippet": "This expansion to the Conservatory is surrounded by tall rock formations and covered in amber grass.",
+                "entry": "The Gully is an expansion to the Conservatory nestled between ancient, towering rock formations. While slimes enjoy frolicking in the amber fields of grass, Hen Hens nest in the cliffs, making this a meat-lover's paradise."
+            },
+            "cost": 1800,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr2/ranch/gully.webp"
+            },
+            "type": "Ranch"
+        },
+        {
+            "id": 6,
+            "name": "The Tidepools",
+            "slimepedia": {
+                "snippet": "A costal sanctuary for coral lifeforms and seaweed, this expansion to the conservatory is guaranteed to fill your shoes with sand.",
+                "entry": "Perched on a low-lying peninsula, the Tidepools is like a vacation: a sandy getaway from a rancher's busy life in the conservatory. But slimes and other creatures like this place, too. Tall coral reef formations provide some respite from the sun, while shallow pools of water create an oasis for puddle slimes and other aquatic life."
+            },
+            "cost": 3500,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr2/ranch/tidepools.webp"
+            },
+            "type": "Ranch"
+        },
+        {
+            "id": 7,
+            "name": "The Rainbow Fields",
+            "slimepedia": {
+                "snippet": "Shifting colors like a dream, fading just as quickly.",
+                "entry": "Every day is one perfect, unending lazy afternoon in the Rainbow Fields; the kind that would make anyone want to stretch out across its prismatic grasses and while away the hours watching marshmallow clouds drift slowly across the sky."
+            },
+            "cost": 3500,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr2/biomes/rainbow_fields.webp"
+            },
+            "type": "Biome"
+        },
+        {
+            "id": 8,
+            "name": "Ember Valley",
+            "slimepedia": {
+                "snippet": "A land reborn in fire, teeming with heat and energy.",
+                "entry": "Ember Valley is a volcanic region brimming with lava flows, geysers, and smoldering earth. Its rugged terrain holds secrets of the Far, Far Range’s fiery past and serves as a haven for slimes that thrive in extreme heat."
+            },
+            "cost": 0,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr2/biomes/ember_valley.webp"
+            },
+            "type": "Biome"
+        },
+        {
+            "id": 9,
+            "name": "Starlight Strand",
+            "slimepedia": {
+                "snippet": "A tapestry of dawn and dusk, woven into a single day.",
+                "entry": "Starlight Strand is a mystical biome where day and night coexist. Its rich vegetation, vibrant colors, and ethereal glow make it one of the most breathtaking locations on Rainbow Island. It is a paradise for explorers and slimes alike."
+            },
+            "cost": 0,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr2/biomes/starlight_strand.webp"
+            },
+            "type": "Biome"
+        },
+        {
+            "id": 10,
+            "name": "Powderfall Bluffs",
+            "slimepedia": {
+                "snippet": "A snowy retreat frozen in time.",
+                "entry": "Powderfall Bluffs is a hidden tundra biome shrouded in eternal winter. Snowflakes drift endlessly, and its frosted cliffs offer stunning views of Rainbow Island. Despite its icy conditions, Powderfall Bluffs is home to a surprising array of life, including slimes adapted to the cold."
+            },
+            "cost": 0,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr2/biomes/powderfall_bluffs.webp"
+            },
+            "type": "Biome"
+        },
+        {
+            "id": 11,
+            "name": "Gray Labyrinth",
+            "slimepedia": {
+                "snippet": "A twisting maze of stone and mystery.",
+                "entry": "The Gray Labyrinth is a natural maze of gray rock formations and towering spires. Its pathways shift and turn, creating a sense of disorientation and intrigue. The labyrinth is said to hold secrets and treasures for those brave enough to explore its depths."
+            },
+            "cost": 0,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr2/biomes/gray_labyrinth.webp"
+            },
+            "type": "Biome"
+        },
+        {
+            "id": 12,
+            "name": "The Slime Sea",
+            "slimepedia": {
+                "snippet": "An endless ocean of slimes and wonder.",
+                "entry": "The Slime Sea is a vast and mysterious ocean surrounding Rainbow Island. While it cannot be explored directly, its shimmering waves and gentle sounds are a constant presence. It is said that the Slime Sea is where slimes are reborn, continuing the cycle of life on the Far, Far Range."
+            },
+            "cost": 0,
+            "images": {
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/locations/sr2/biomes/slime_sea.webp"
+            },
+            "type": "Biome"
+        }
+        
     ]
 }

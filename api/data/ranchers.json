@@ -1,39 +1,59 @@
 {
-    "ranchers": [
+    "ranchers":[
         {
             "id": 1,
-            "name": "Beatrix LeBeau",
-            "description": "The main protagonist of Slime Rancher. She is a plucky, young rancher who sets out for a life a thousand light years away from Earth on the 'Far, Far Range'."
+            "name": "Thora West",
+            "biography": "Thora is a veteran slime rancher, though unlike other NPCs she doesn't specify a particular preference in the field, so trades for practically anything available in the game. On her introduction, she states she is the head of the welcome wagon of the Range Exchange, which may mean that she is in charge to some degree.",
+            "trades": ["fruits", "veggies", "chickens", "plorts", "slimes" ],
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/sr2/thora.webp",
+                "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/sr1/thora.webp",
+                "full_body": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/full_body/thora.webp"
+            }
         },
         {
             "id": 2,
-            "name": "Hobson Twillgers",
-            "description": "The previous owner of the ranch before Beatrix. He left behind notes and messages for future ranchers."
+            "name": "Viktor Humphries",
+            "biography": "Viktor himself states that he is a professional slime rancher, slime scientist and amateur musician. His speech pattern indicates that he is an intellectual, further backing up his profession. He has a keen interest in the slimes that inhabit the Far, Far Range but his studies prevent him from exploring, so he makes requests for various slime species on the Range Exchange.",
+            "trades": [ "slimes" ],
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/sr2/viktor.webp",
+                "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/sr1/viktor.webp",
+                "full_body": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/full_body/viktor.webp"
+            }
         },
         {
             "id": 3,
-            "name": "Thora West",
-            "description": "A rancher who provides Beatrix with helpful tips and advice. She is also Hobson's partner."
+            "name": "Ogden Ortiz",
+            "biography": "Little is known about Ogden, though he used to be the CEO of a major insta-food conglomerate which would make food that was full of chemicals and preservatives which in turn would make people on Earth ill in the name of profit. He attempted to sabotage the company in protest, but was unsuccessful and was ousted. He traveled to the Far, Far Range to grow his own crops naturally. Because of this habit, he tends to only raise Slimes that eat fruits and veggies.",
+            "trades": [ "fruit", "veggies" ],
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/sr2/ogden.webp",
+                "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/sr1/ogden.webp",
+                "full_body": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/full_body/ogden.webp"
+            }
         },
         {
             "id": 4,
-            "name": "Ogden Ortiz",
-            "description": "A farmer who specializes in growing exotic fruits and vegetables. He offers Beatrix various rewards in exchange for helping him with his farm."
+            "name": "Mochi Miles",
+            "biography": "Little is known about Mochi's life, though it is implied through her Range Exchange in one of her manors that she lived a somewhat lonely life. She is implied to not be on good terms with her billionaire father, Tatsuya Miles. She was sent to the Far, Far Range on a special assignment by her father, though she believes that her father simply wanted to her to be out of his way, presumably to prevent her from bothering him as much.",
+            "trades": [ "plorts" ],
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/sr2/mochi.webp",
+                "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/sr1/mochi.webp",
+                "full_body": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/full_body/mochi.webp"
+            }
         },
         {
             "id": 5,
-            "name": "Mochi Miles",
-            "description": "A competitive and wealthy rancher who runs a slime racing business. She offers Beatrix rewards for participating in her races."
-        },
-        {
-            "id": 6,
-            "name": "Viktor Humphries",
-            "description": "A scientist and inventor who is fascinated by slimes. He offers Beatrix various rewards for helping him with his research."
-        },
-        {
-            "id": 7,
-            "name": "Bob",
-            "description": "A mysterious character who communicates through letters and seems to be obsessed with chickens."
+            "name": "BOb",
+            "biography": "Due to BOb's limited vocabulary - much of which requests chickens - not much is currently known about BOb except that he, or rather they, have an affinity for Hens and Roostros. It is unknown what happens to the chickens that BOb requests.",
+            "trades": [ "chicken" ],
+            "images":{
+                "default": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/sr2/bob.webp",
+                "sr1": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/sr1/bob.webp",
+                "full_body": "https://raw.githubusercontent.com/caioabrahao/slimepedia-API/refs/heads/main/api/images/ranchers/full_body/bob.webp"
+            }
         }
     ]
 }
